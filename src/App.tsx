@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       Hello count {count}
-        <button onClick={increment}>Hello ;)</button>
+        <button style={{background: "black"}} onClick={increment}>Hello ;)</button>
     </div>
   )
 }
