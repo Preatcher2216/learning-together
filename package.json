@@ -2,11 +2,14 @@
   "name": "learninng-together",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://preatcher2216.github.io/learning-together",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
